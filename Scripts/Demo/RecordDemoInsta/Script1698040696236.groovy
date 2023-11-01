@@ -42,22 +42,5 @@ WebUI.doubleClick(findTestObject('Object Repository/InstaTest/Page_Instagram/div
 
 WebUI.click(findTestObject('Object Repository/InstaTest/Page_Instagram/span_Sign up'))
 
-WebUI.setText(findTestObject('Object Repository/InstaTest/Page_Sign up  Instagram/input_Mobile number or email address_emailOrPhone'), 
-    '46657677888989')
-
-WebUI.setText(findTestObject('Object Repository/InstaTest/Page_Sign up  Instagram/input_Full Name_fullName'), 'dfsdfsd')
-
-WebUI.setText(findTestObject('Object Repository/InstaTest/Page_Sign up  Instagram/input_Username_username'), '')
-
-WebUI.click(findTestObject('Object Repository/InstaTest/Page_Sign up  Instagram/input_Username_username'))
-
-WebUI.doubleClick(findTestObject('Object Repository/InstaTest/Page_Sign up  Instagram/input_Username_username'))
-
-WebUI.setText(findTestObject('Object Repository/InstaTest/Page_Sign up  Instagram/input_Username_username'), 'sandhyasan')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/InstaTest/Page_Sign up  Instagram/input_Password_password'), 'oAZ3zqn80SPHq9xo/SPnPA==')
-
-WebUI.click(findTestObject('Object Repository/InstaTest/Page_Sign up  Instagram/button_Sign Up'))
-
-WebUI.click(findTestObject('Object Repository/InstaTest/Page_Sign up  Instagram/p_This username isnt available. Please try another'))
+WebUI.closeBrowser()
 
